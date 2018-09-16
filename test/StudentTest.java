@@ -185,7 +185,7 @@ public class StudentTest {
         studentList.add(student2);
         List<Student> expResult = new ArrayList<>();
         expResult.add(student1);
-        studentList.add(student2);
+        expResult.add(student2);
         List<Student> result = Student.order(studentList);
         assertEquals(expResult, result);
     }
